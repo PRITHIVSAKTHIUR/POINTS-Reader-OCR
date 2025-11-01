@@ -1,7 +1,5 @@
-git+https://github.com/Dao-AILab/flash-attention.git
-git+https://github.com/huggingface/accelerate.git
+flash-attn @ https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash_attn-2.7.3+cu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
 git+https://github.com/WePOINTS/WePOINTS.git
-git+https://github.com/huggingface/peft.git
 transformers-stream-generator
 transformers==4.55.2
 huggingface_hub
@@ -10,14 +8,15 @@ qwen-vl-utils
 pyvips-binary
 sentencepiece
 opencv-python
+torch==2.6.0
 docling-core
 python-docx
 torchvision
 safetensors
+accelerate
 matplotlib
 num2words
 reportlab
-xformers
 requests
 pymupdf
 hf_xet
@@ -26,7 +25,7 @@ pyvips
 pillow
 gradio
 einops
-torch
 fpdf
+peft
 timm
 av
